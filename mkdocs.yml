@@ -1,4 +1,4 @@
-site_name: My Docs
+site_name: Min Tutorial Nettside
 theme:
   name: material
 markdown_extensions:
@@ -9,3 +9,8 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+  - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption
+plugins:
+  - glightbox
